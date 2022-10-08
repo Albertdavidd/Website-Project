@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+}
+
+#home{
+    padding-left: 2vh;
+    position: relative;
+}
+
+#dropdown{
+    display: none ;
+    background-color:#bf0101;
+    position: absolute;
+    top:100%;
+    left: 0;
+    text-align: left;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#home:hover{
+    cursor: pointer;
+}
+
+.dropdown_item{
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown_item:hover{
+    background-color: #a40000;
+}
+
+
+#home:hover>#dropdown{
+    display: block;
+}
+
+#home img{
+   height: 4vh;
+}
+
+#content{
+    background-color:#bf0101;
+}
+
+#judul{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+
+.map{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    padding-left: 2vh;
+    height: 80vh;
+}
+
+
+
+.desc{
+    display: flex;
+    height: 80vh;
+    background-color: #a30101;
+
+}
+
+.desc_left img{
+    height: 25vh;
+    padding:2vh;
+}
+
+.desc_right{
+    padding: 2vh;
+}
+
+.pic{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.pic img{
+    position: absolute;
+    width: 100%;
+}
+
+.pic2{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.pic2 img{
+    position: absolute;
+    width: 100%;
+}
+
+.pic3{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.pic3 img{
+    position: absolute;
+    width: 100%;
+}
+
+.pic4{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.pic4 img{
+    position: absolute;
+    width: 100%;
+}
+
+.pic5{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.pic5 img{
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.desc_right img :hover{
+    height: 40vh;
+}
+
+.desc_right p{
+    color: white;
+    font-size: 125%;
+    width: 60vh;
+}
+
+
+
+
+
+
+
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Home/Asset/footer.jpg);
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    b
+}
+
+.logosos img{
+    height: 10vh;
+}
+
+#sosmedlogo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+

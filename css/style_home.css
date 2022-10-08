@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+}
+
+#home{
+    padding-left: 2vh;
+    position: relative;
+}
+
+#dropdown{
+    display: none ;
+    background-color:#bf0101;
+    position: absolute;
+    top:100%;
+    left: 0;
+    text-align: left;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#home:hover{
+    cursor: pointer;
+}
+
+.dropdown_item{
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown_item:hover{
+    background-color: #a40000;
+}
+
+#home:hover>#dropdown{
+    display: block;
+}
+
+#home img{
+   height: 4vh;
+}
+
+#content1{
+    background-color:#bf0101;
+}
+
+#banner{
+    background-image:url(./Asset/banner1.jpg) ;
+    background-size:cover;
+    height: 75vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner:hover{
+    background-image:url(./Asset/banner2.jpg) ;
+    background-size:cover;
+    height: 75vh;
+    background-repeat: no-repeat;
+
+}
+
+#logoban img{
+
+    height: 50vh;
+    width: 50vh;
+
+}
+
+#teksbanner{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    -webkit-text-stroke: 1px black;
+}
+
+#button{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 2vh;
+    background-color: black;
+}
+
+#contentteks{
+    color: white;
+    font-weight: bolder;
+    padding-left: 2vh;
+}
+
+#contentteks p{
+    padding: 2vh;
+
+}
+
+
+
+#teks1{
+    color: white;
+    font-weight: bolder;
+}
+
+#bawah{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bawah img{
+    height: 30vh;
+}
+
+#bawahfoot{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+#char{
+    padding-top: 4vh;
+    height: 40vh;
+    background-size:contain;
+
+    background-image: url(./Asset/backfeature.jpg);
+
+}
+
+#judul{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xxx-large;
+    
+}
+
+#contentchar{
+    display: flex;
+    padding-left: 2vh;
+}
+
+#gambarchar img{
+    height: 30vh;
+}
+
+#descchar img{
+    height: 10vh;
+}
+
+#descchar p{
+    width: 75vh;
+    color: white;
+    font-size: x-large;
+
+}
+
+
+#arena{
+    padding-top: 4vh;
+    height: 40vh;
+    background-size:contain;
+    background-image: url(./Asset/backfeature.jpg);
+
+}
+
+
+#contentarena{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 5vh;
+    padding-top: 2vh;
+
+}
+
+#gambararena img{
+    height: 30vh;
+}
+
+#descarena img{
+    height: 10vh;
+    padding-left: 15vh;
+}
+
+#descarena p{
+    padding-top: 2vh;
+    width: 75vh;
+    color: white;
+    font-size: x-large;
+
+}
+
+#footer{
+
+    background-image: url(./Asset/footer.jpg);
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    b
+}
+
+.logosos img{
+    height: 10vh;
+}
+
+#sosmedlogo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+
+
+
+

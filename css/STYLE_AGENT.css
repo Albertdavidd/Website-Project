@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+}
+
+#nav{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+}
+
+#home{
+    padding-left: 2vh;
+    position: relative;
+}
+
+#dropdown{
+    display: none ;
+    background-color:#bf0101;
+    position: absolute;
+    top:100%;
+    left: 0;
+    text-align: left;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#home:hover{
+    cursor: pointer;
+}
+
+.dropdown_item{
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown_item:hover{
+    background-color: #a40000;
+}
+
+
+#home:hover>#dropdown{
+    display: block;
+}
+
+#home img{
+   height: 4vh;
+}
+
+#content{
+    background-color:#bf0101;
+}
+
+
+
+
+.char{
+    padding-top: 5vh;
+    padding-left: 2vh;
+
+}
+
+i{
+    margin: 0 20px;
+}
+
+.slider-cont{
+    padding-right: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-cont img{
+    height: 50vh;
+}
+
+
+
+
+
+
+
+.kanan{
+    height: 50vh;
+    padding-left: 2vh;
+    background-color: rgb(80, 80, 80);
+
+}
+
+.card_atas{
+    display: flex;
+}
+
+.descchar{
+    padding-top: 2vh;
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80vh;
+}
+
+
+.nama{
+    display: flex;
+    align-items: center;
+}
+
+.nama p{
+    padding-left: 2vh;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.stat{
+
+    padding-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+}
+
+.hp{
+    padding-right: 2vh;
+}
+
+.hp p{
+    padding-bottom: 2vh;
+}
+
+.stamina{
+    padding-right: 2vh;
+}
+
+.stamina p{
+    padding-bottom: 2vh;
+}
+
+
+.card_bawah{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+}
+
+.judulbawah p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-right: 2vh;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+}
+
+.descskill{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 2vh;
+
+}
+
+.deskill{
+    color: white;
+    padding-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70vh;
+}
+
+
+
+
+
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Home/Asset/footer.jpg);
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    b
+}
+
+.logosos img{
+    height: 10vh;
+}
+
+#sosmedlogo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
